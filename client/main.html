@@ -1,9 +1,12 @@
+<!-- main.html -->
 <template name="main">
-  {{#each posts}}
-    <article>
-      <div>
-        <a href="/post/{{_id}}">{{title}}</a>
-      </div>
-    </article>
-  {{/each}}
+  <div class="main">
+    {{#each posts}}
+      <article>
+        <div>
+          <a href="/detail/{{_id}}">{{title}}</a>
+        </div>
+      </article>
+    {{/each}}
+  </div>
 </template>

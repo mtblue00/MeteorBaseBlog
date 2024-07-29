@@ -15,4 +15,6 @@ Meteor.startup(() => {
             Posts.insert(post);
         });
     }
+
+    process.env.MAIL_URL = 'smtp://mail.mstartup:oojslqlaelljsots@smtp.gmail.com:587/';
 });
